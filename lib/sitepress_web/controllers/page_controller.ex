@@ -6,4 +6,8 @@ defmodule SitepressWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false)
   end
+
+  def show(conn, _params) do
+    # TODO: Find the HTML pages
+  end
 end
